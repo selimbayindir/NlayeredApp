@@ -1,0 +1,3 @@
+Application Domaini Referans Alýr
+INfrastructure ve Persistence APPLÝCATÝON DAN REFERANS Almalýdýr.
+--------------------------------------------------------------------------------
