@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NlayeredApp.Application.Abstractions
 {
-    public interface IProductService
+    public interface IinMemoryService
     {
         List<Product> getproducts();
     }

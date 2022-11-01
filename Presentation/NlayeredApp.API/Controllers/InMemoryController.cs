@@ -7,11 +7,11 @@ namespace NlayeredApp.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductsController : ControllerBase
+    public class InmemoryController : ControllerBase
     {
-        private readonly IProductService _productService;
+        private readonly Application.Abstractions.IinMemoryService _productService;
 
-        public ProductsController(IProductService productService)
+        public InmemoryController(Application.Abstractions.IinMemoryService productService)
         {
             _productService = productService;
         }

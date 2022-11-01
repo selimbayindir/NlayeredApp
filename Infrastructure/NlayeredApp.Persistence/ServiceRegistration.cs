@@ -13,7 +13,7 @@ namespace NlayeredApp.Persistence
     {
         public static void AddPersistenceServices(this IServiceCollection services)
         {
-            services.AddSingleton<IProductService, ProductService>();
+            services.AddSingleton<IinMemoryService, InMemoryService>();
         }
     }
 }

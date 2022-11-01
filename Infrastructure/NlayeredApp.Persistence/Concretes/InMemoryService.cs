@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NlayeredApp.Persistence.Concretes
 {
-    public class ProductService : IProductService
+    public class InMemoryService : IinMemoryService
     {
         public List<Product> getproducts()
             => new List<Product>()
