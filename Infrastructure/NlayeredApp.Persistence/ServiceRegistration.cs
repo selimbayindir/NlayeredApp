@@ -1,6 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using NlayeredApp.Application.Abstractions;
 using NlayeredApp.Persistence.Concretes;
+using NlayeredApp.Persistence.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +16,12 @@ namespace NlayeredApp.Persistence
         public static void AddPersistenceServices(this IServiceCollection services)
         {
             services.AddSingleton<IinMemoryService, InMemoryService>();
+
+            services.AddDbContext<NlayeredAppDbContext>(options => options.UseSqlServer(Configuration.ConnectionString));
+
+
+
+            
         }
     }
 }

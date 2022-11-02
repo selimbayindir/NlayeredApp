@@ -1,3 +1,7 @@
 Application Domaini Referans Alýr
 INfrastructure ve Persistence APPLÝCATÝON DAN REFERANS Almalýdýr.
 --------------------------------------------------------------------------------
+Persistence
+-----------
+Microsoft.Extensions.Configuration
+Microsoft.Extensions.Configuration.Json
