@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NlayeredApp.Domain.Entities
 {
-    public class Customer:BaseEntity
+    public class Customer : BaseEntity
     {
         public String Name { get; set; }
 

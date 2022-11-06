@@ -1,12 +1,14 @@
-﻿using System;
+﻿using NlayeredApp.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NlayeredApp.Application.Repositories.Order
+namespace NlayeredApp.Application.Repositories//clear .Order
 {
-    public interface IOrderReadRepository
+    public interface IOrderReadRepository :IReadRepository<Order>
     {
+
     }
 }

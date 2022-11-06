@@ -1,12 +1,13 @@
-﻿using System;
+﻿using NlayeredApp.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NlayeredApp.Application.Repositories.Customer
+namespace NlayeredApp.Application.Repositories//clear .Customer
 {
-    public interface ICustomerReadRepository
+    public interface ICustomerReadRepository:IReadRepository<Customer>
     {
     }
 }
