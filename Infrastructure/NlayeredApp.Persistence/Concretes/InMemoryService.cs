@@ -10,6 +10,11 @@ namespace NlayeredApp.Persistence.Concretes
 {
     public class InMemoryService : IinMemoryService
     {
+        public Task<Product> getproduct(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> getproducts()
             => new List<Product>()
             {

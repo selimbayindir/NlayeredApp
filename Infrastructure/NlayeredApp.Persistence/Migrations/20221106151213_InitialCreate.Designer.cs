@@ -12,8 +12,8 @@ using NlayeredApp.Persistence.Context;
 namespace NlayeredApp.Persistence.Migrations
 {
     [DbContext(typeof(NlayeredAppDbContext))]
-    [Migration("20221102204858_mig1")]
-    partial class mig1
+    [Migration("20221106151213_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

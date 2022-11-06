@@ -18,10 +18,6 @@ namespace NlayeredApp.Persistence
             services.AddSingleton<IinMemoryService, InMemoryService>();
 
             services.AddDbContext<NlayeredAppDbContext>(options => options.UseSqlServer(Configuration.ConnectionString));
-
-
-
-            
         }
     }
 }

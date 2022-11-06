@@ -5,3 +5,11 @@ Persistence
 -----------
 Microsoft.Extensions.Configuration
 Microsoft.Extensions.Configuration.Json
+
+--
+Önce Arayüzler oluþturulur Sonra Concret'ler oluþturulur.
+Repository Design Pattern Kullancaðýz.,
+--
+IQueryable :Sorgu üzerinde çalýþýlacaksa
+IEnumarable,List:im memory de çalýþýr 
+Task:
