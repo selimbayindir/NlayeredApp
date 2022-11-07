@@ -13,3 +13,8 @@ Repository Design Pattern Kullancaðýz.,
 IQueryable :Sorgu üzerinde çalýþýlacaksa
 IEnumarable,List:im memory de çalýþýr 
 Task:
+--
+bool tracking =true
+ef core trackingi burada çalýþtýr 
+get yappacaksan mantýklý olmayabilir
+

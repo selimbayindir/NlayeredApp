@@ -10,11 +10,11 @@ namespace NlayeredApp.Application.Repositories
 {
     public interface IReadRepository<T>: IRepository<T> where T : BaseEntity //t t olsun :)
     {
-        IQueryable<T> GetAll();
-        IQueryable<T> GetWhere(Expression<Func<T,bool>> predicate );
+        IQueryable<T> GetAll(bool tracking =true);
+        IQueryable<T> GetWhere(Expression<Func<T,bool>> predicate , bool tracking = true);
         //T GetOneAsync(Expression<Func<T,bool>> predicate); 
-        Task<T> GetOneAsync(Expression<Func<T,bool>> predicate); 
+        Task<T> GetOneAsync(Expression<Func<T,bool>> predicate, bool tracking = true); 
         //T GetById(String id);
-        Task<T> GetByIdAsync(String id);
+        Task<T> GetByIdAsync(String id, bool tracking = true);
     }
 }

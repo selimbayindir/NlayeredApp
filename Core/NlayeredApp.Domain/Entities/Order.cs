@@ -9,7 +9,7 @@ namespace NlayeredApp.Domain.Entities
 {
     public class Order :BaseEntity
     {
-        public int CustomerId { get; set; } //Default Convertion
+        public Guid CustomerId { get; set; } //Default Convertion
         public String Description { get; set; }
         public String Address { get; set; }
 
